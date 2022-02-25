@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+:root{
+    --black: #101010;
+    --iron: #f2f3f6;
+    --heavy-metal: #222621;
+    --manatee: #82899e;
+    --flint: #706c68;
+    --fuscous-gray: #494a43;
+    --gull-gray: #929db1;
+    --trout: #4e5762;
+    --shuttle-gray: #596571;
+    --reno-sand: #a86415;
+}
+html::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+html::-webkit-scrollbar-track {
+    background-color: var(--heavy-metal);
+    border-radius: 10px;
+}
+html::-webkit-scrollbar-thumb {
+    background-color: var(--black);
+    border-radius: 10px;
+} 
+body{
+    background-color: var(--black);
+    height:100vh;
+    font-family: 'Roboto', sans-serif;
+}
+.logo{
+    color: var(--shuttle-gray);
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-left: 20px;
+    display: flex;
+    align-items: flex-end;
+}
+.logo img{
+    filter: invert(91%) sepia(6%) saturate(74%) hue-rotate(189deg) brightness(106%) contrast(95%);
+    display:flex;
+    width: 3.51vw;
+}
+.logo p{
+    font-size:2.61vw;
+}
+
+.menu-mobile{
+    position: fixed;
+    z-index: 1;
+    top: 25%;
+    right: 0;
+}
+ .mobile-button li {
+    padding: 20px 0;     
+}
+.mobile-button li a{
+    color: var(--iron);
+    padding: 10px;
+    
+    background-color: #a86415;
+}
+.mobile-button li a img{
+    width: 12px;
+    
+}
+
+
+.container{
+    z-index: 0;
+    width: 80%;
+    margin: 8% auto;
+}
+.container-hero{
+    
+    position: relative;
+    width: 100%;
+    max-height: 60vw;    
+    background-color: var(--iron);
+    border-radius: 12px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    overflow: hidden;
+}
+
+ 
+.citylander-description{
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+}
+.citylander-description h1{
+   
+    margin-bottom:13%;
+    color: var(--fuscous-gray);
+    font-size: 3.7vw;
+    font-weight: 700;
+}
+.citylander-description p{
+    color: var(--flint);
+    font-size: 3.3vw;
+}
+.citylander-image{
+    background-image: url(/media/city01.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+}
+.marquee {
+    width: 100%;
+    height: 43vw;
+    position: relative;
+}
+.slider {
+    display: flex;
+    white-space: nowrap;
+    position: relative;
+    
+    height: 25%;
+}
+.slider p{
+    color: var(--black);
+    font-size: 13vw;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.animation1{
+    color: var(--trout);
+    animation: slider1 6s linear infinite;
+}
+.animation1 p{  color: var(--trout);}
+.animation2{
+    animation: slider2 7s linear infinite;
+}
+.animation1 p{  color: var(--trout);}
+
+.animation3{
+    animation: slider3 9s linear infinite;
+}
+.animation3 p{  color: var(--fuscous-gray);}
+
+.animation4{
+    animation: slider4 7s linear infinite;   
+}
+.animation4 p{  color: var(--reno-sand);}
+
+
+
+@keyframes slider1 {
+    0%   { left:   1em }
+    100% { left: -63.25vw }
+}
+@keyframes slider2 {
+    0%   { left:   1em }
+    100% { left: -63.25vw }
+}
+@keyframes slider3 {
+    0%   { left:   17.56vw }
+    100% { left: -39.82vw }
+}
+@keyframes slider4 {
+    0%   { left:   1em }
+    100% { left: -63.25vw }
+}
+
+footer{
+    flex-direction: column;
+    height: 200px;
+    color: var(--iron);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+footer .social{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+footer a{
+    color: var(--shuttle-gray);
+}
+.copyright p{
+    font-size:0.9em;
+
+    
+}
+ 
+
+

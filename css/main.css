@@ -114,6 +114,8 @@ body{
     height: 100%;
     background-size: cover;
     overflow: hidden;
+    object-fit: contain;
+    
 }
 .marquee {
     width: 100%;

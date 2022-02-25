@@ -1,6 +1,6 @@
 # City Scape
-**Autor** - [Eudes Lima.](www.eudeslima.com)
-**LinkedIn**- [Click here.](https://www.linkedin.com/in/eudeslimaar/)
+**Autor** - [Eudes Lima.](www.eudeslima.com)<br>
+**LinkedIn**- [Click here.](https://www.linkedin.com/in/eudeslimaar/)<br>
 
 ## Introduction
 

@@ -10,7 +10,7 @@ This project was made in order to present basic concepts of modeling as well as 
 
 ![Colores](./media/Palette.png)
 
-## Caracteristics of this project:
+## Characteristics of this project:
 
 
  - [x] UX proptype.

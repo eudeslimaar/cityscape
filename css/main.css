@@ -56,21 +56,24 @@ body{
 .menu-mobile{
     position: fixed;
     z-index: 1;
-    top: 25%;
+    top: 15%;
     right: 0;
 }
  .mobile-button li {
     padding: 20px 0;     
 }
 .mobile-button li a{
-    color: var(--iron);
-    padding: 10px;
-    
+    border-bottom-left-radius: 16px;
+    padding: 15px;
     background-color: #a86415;
 }
+
 .mobile-button li a img{
-    width: 12px;
+    width: 18px;
     
+}
+.mobile-button li a:hover img{
+    filter: invert(91%) sepia(6%) saturate(74%) hue-rotate(189deg) brightness(106%) contrast(95%);
 }
 
 
@@ -156,24 +159,6 @@ body{
 .animation4 p{  color: var(--reno-sand);}
 
 
-
-@keyframes slider1 {
-    0%   { left:   1em }
-    100% { left: -63.25vw }
-}
-@keyframes slider2 {
-    0%   { left:   1em }
-    100% { left: -63.25vw }
-}
-@keyframes slider3 {
-    0%   { left:   17.56vw }
-    100% { left: -39.82vw }
-}
-@keyframes slider4 {
-    0%   { left:   1em }
-    100% { left: -63.25vw }
-}
-
 footer{
     flex-direction: column;
     height: 200px;
@@ -202,13 +187,33 @@ footer a{
     justify-content: space-around;
 }
 .social li{
+
     display: inline;
 
 }
 .social li a img{
-    width: 22px;
+    width: 27px;
     filter: invert(91%) sepia(6%) saturate(74%) hue-rotate(189deg) brightness(106%) contrast(95%);
 
+}
+
+
+/*=========Animations===========*/
+@keyframes slider1 {
+    0%   { left:   1em }
+    100% { left: -63.25vw }
+}
+@keyframes slider2 {
+    0%   { left:   1em }
+    100% { left: -63.25vw }
+}
+@keyframes slider3 {
+    0%   { left:   17.56vw }
+    100% { left: -39.82vw }
+}
+@keyframes slider4 {
+    0%   { left:   1em }
+    100% { left: -63.25vw }
 }
  
 
